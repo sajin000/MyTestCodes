@@ -3,12 +3,12 @@ package com.test.javaExperiments;
 import java.io.*;
 
 
-public class MontyHall{
+public class TestMontyHall{
     private static MakeADeal  deal;
 
     /**
      * Utilty for command line arguments
-     * @return
+     * @return none
      */
     private static String readInput(){
         String inputLine = "";
@@ -26,7 +26,11 @@ public class MontyHall{
         System.out.println(s);
     }
 
-    //method to ensure a valid Door is selected by user...
+    /**
+     *
+     * @param s
+     * @return
+     */
     private static boolean validDoor(String s){
         int i;
         try{
@@ -57,7 +61,9 @@ public class MontyHall{
         new Pause().run();
     }
 
-    //monty's dialogue with user...
+    /**
+     * Dialogue
+     */
     private static void montyGo(){
         p("\nMONTY: Welcome to Let's Make a Deal!");
         callPause();
