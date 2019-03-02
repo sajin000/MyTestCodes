@@ -108,9 +108,9 @@ public class TestMontyHall{
             p("MONTY: Oh, I'm so sorry.");
         }
     }
-    public static void main(String[] args){
+   /* public static void main(String[] args){
         int input = 3;
         deal = new MakeADeal(input);
         montyGo();
-    }
+    }*/
 }
